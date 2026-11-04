@@ -7,7 +7,7 @@ Terraform module that creates OCI VCN subnets from a single map, regional or AD-
 ```hcl
 module "subnets" {
   source  = "blissflow-tech/subnets/oci"
-  version = "~> 1.0"
+  version = "~> 1.1"
 
   subnets = {
     private = {
